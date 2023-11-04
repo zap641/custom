@@ -17,15 +17,20 @@ M.zap641 = {
         ["<C-u>"] = {"<C-u>zz"},
         ["n"] = {"nzzzv"},
         ["N"] = {"Nzzzv"},
-        ["<leader>y"] = {"[[\"+y]]", "Yank to system register"},
-        ["<leader>Y"] = {"[[\"+Y]]", "Yank to system register"},
-        ["<leader>d"] = {"[[\"_d]]", "Delete and store to system register"}
+        -- End of curser maps
+        ["<leader>y"] = {"\"+y", "Yank to system register"},
+        ["<leader>Y"] = {"\"+Y", "Yank to system register"},
     },
     v = {
         ["J"] = {":m '>+1<CR>gv=gv", "Move highlighted text up"},
         ["K"] = {":m '<-2<CR>gv=gv", "Move highlighted text down"},
-        ["<leader>y"] = {"[[\"+y]]", "Yank to system register"},
-        ["<leader>d"] = {"[[\"_d]]", "Delete and store to system register"}
+        ["<leader>y"] = {"\"+y", "Yank to system register"},
+    },
+    i = {
+        ["<C-c>"] = {"<Esc>"}
+    },
+    t = {
+        ["<Esc>"] = {"<C-Bslash><C-n>", "Exit terminal mode"}
     }
 }
 return M
