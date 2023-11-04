@@ -2,7 +2,7 @@ local M = {}
 
 M.abc = {
     n = {
-        ["<leader>gG"] = {"vim.cmd.Git", "Git window"}
+        ["<leader>gs"] = {vim.cmd.Git, "Git window"}
     }
 
 }
