@@ -32,7 +32,7 @@ M.ui = {
         },
 
         buttons = {
-            { "  Bookmarks", "Spc m a", "Telescope marks" },
+            { "  Open Nvim Tree", "Ctrl n, <leader> e, <leader> pv", "NvimTreeToggle" },
         },
     },
 }
