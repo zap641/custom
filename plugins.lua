@@ -9,6 +9,10 @@ local plugins = {
     {
         'tpope/vim-fugitive',
         lazy = false
+    },
+    {
+        'eandrju/cellular-automaton.nvim',
+        lazy = false
     }
 }
 return plugins
